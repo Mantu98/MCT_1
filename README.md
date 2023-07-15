@@ -1,1 +1,374 @@
 # MCT_1
+HTML_CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav id="navbar">
+        <div class="header1">
+          <img src="./samsung.png" alt="">
+        </div>
+
+        <div class="header2">
+            <div class="menu">
+             <a>Shop</a>
+             <a>Mobile</a>
+             <a>TV & AV</a>
+             <a>Home Appliance</a>
+             <a>Laptop & Monitors</a>
+             <a>Displays</a>
+             <a>Accessories</a>
+             <a>SmartThings</a>
+            </div>
+
+            <div class="menu-2">
+                <a>Support</a>
+                <a>For Business</a>
+            </div>
+
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-user"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+         <section id="sec1">
+            <div class="sec1-left">
+               <h1>Galaxy Unpacked</h1>
+               <h2>July 26,2023 at 4:30 PM IST</h2>
+               <h6>Watch the livestreame here</h6>
+               <div class="pre-reserve">Pre-reserve now</div>
+            </div class="video">
+            <video width="100%" height="100%" autoplay id="myVideo">
+                <source src="https://images.samsung.com/is/content/samsung/assets/in/home/2h-invi/HOME_B5Q5_Invitation_KV_720x1080_mo.mp4" type="video/mp4">
+             </video>
+         </section>
+
+    <section id="sec2">
+            <p class="heading">This Week’s Highlights</p>
+            <div class="sec2-first">
+                <p>Mobile</p>
+                <p>TV</p>
+                <p>Appliances</p>
+                <p>Samsung Days</p>
+                <p>Galaxy Ecosystem</p>
+                <p>Samsung Live</p>
+            </div>
+
+            <div class="sec2-second">
+                <div class="sec2-img">
+                    <div class="text">
+                     <p>Galaxy Unpacked</p>
+                     <h6>Pre-reserve now</h6>
+                    </div>
+                </div>
+                <div class="sec2-items">
+                    <div class="items box1">
+                        <div class="item-glance">
+                            <p>Galaxy S23 Series</p>
+                            <p>Starting ₹ 2917*/month</p>
+                             <a>Buy now</a>
+                        </div>
+                    </div>
+                    <div class="items box2">
+                        <div class="item-glance">
+                            <p>Galaxy S21 FE 5G</p>
+                            <p>Starting ₹ 44999*</p>
+                             <a>Buy now</a>
+                        </div>
+                    </div>
+                    <div class="items box3">
+                        <div class="item-glance">
+                            <p>Galaxy A34 | A54 5G</p>
+                            <p>Starting ₹ 26999*</p>
+                             <a>Buy now</a>
+                        </div>
+                    </div>
+                    <div class="items box4">
+                        <div class="item-glance">
+                            <p>Galaxy Flip3 5G</p>
+                            <p>Starting ₹ 479999*</p>
+                             <a>Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="sec3">
+
+        <div class="div1">
+             </div><p class="heading">Mobile & Computing</p> 
+            <div class="menu">
+                <p class="underline">Galaxy S23 Ultra</p>
+                <p>Galaxy Book3 Series</p>
+                <p>Galaxy Tab S8 Series</p>
+                <p>Galaxy S22</p>
+                <p>Galaxy Watch5 | Watch5 Pro</p>
+            </div>
+            <div class="specification">
+                <h1 class="heading">Galaxy S23 Ultra</h1>
+                <p>Own Epic now at just ₹ 4874.95*/month</p>
+                <p>Benefits wotth ₹ 10000* | Extra 5% off on accessory bundle</p>
+                <div class="button">
+                    <p>Learn more</p>    
+                    <a>Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="div2">
+            <div class="title"><p class="heading">TV & AV</p></div>
+            <div class="menu2">
+                <p class="underline">Neo QLED</p>
+                <p>QLED</p>
+                <p>OLED</p>
+                <p>The Frame</p>
+                <p>The freestyle</p>
+            </div>
+            <div class="specification">
+                <h1 class="heading">Neo QLED</h1>
+                <p>Starting ₹ 59396*/month</p>
+                <p>Get Free Freestyle projector worth ₹ 61990*</p>
+                <div class="button"> 
+                    <a>Buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="div3">
+            <div class="title"><p class="heading">Home Appliances</p></div>
+            <div class="menu3">
+                <p class="underline">BESPOKE Washer Dryer Combo</p>
+                <p>BESPOKE Side by side Refrigeretor</p>
+                <p>Convertible 5in1 AC</p>
+                <p>ecombble top Load</p>
+                <p>BESPOKE Jet pro</p>
+            </div>
+            <div class="specification">
+                <h1 class="heading">BESPOKE Washer dryer Combo</h1>
+                <p>Starting ₹ 103500*</p>
+                <p>Incl. ₹ 26500* off with instant bank discount & app voucher</p>
+                <div class="button"> 
+                    <a>Buy now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+         <section id="sec4">
+            <div class="heading"><P>Recommended Products</P></div>
+            <div class="product">
+                <div class="box1">
+                    <div class="img"></div>
+                    <div class="specification"><p>Galaxy A14 5G (8GB RAM)</p></div>
+                    <div class="color">Colour:Dark Red</div>
+                    <div class="gb">128 GB</div>
+                    <div class="price">
+                        <p class="rupee">₹ 19999.00</p>
+                        <p>No Cost EMI starts from ₹ 2055.44/month.</p>
+                    </div>
+                    <div class="button">Buy now</div>
+                </div>
+
+                <div class="box2">
+                    <div class="img"></div>
+                    <div class="specification"><p>Galaxy Watch5 pro LTE (4mm)</p></div>
+                    <div class="color">Colour:Black Titanium(with black band)</div>
+                    <div class="gb"></div>
+                    <div class="price">
+                        <p class="rupee">₹ 49999.00</p>
+                        <p>No Cost EMI starts from ₹ 3749.91/month.</p>
+                    </div>
+                    <div class="button">Buy now</div>
+                </div>
+
+                <div class="box3">
+                    <div class="img"></div>
+                    <div class="specification"><p>1m 08cm (43") CUE60 Crystal 4k UHD Smart TV</p></div>
+                    <div class="color"></div>
+                    <div class="gb">43</div>
+                    <div class="price">
+                        <p class="rupee">₹ 29990.00</p>
+                        <p>No Cost EMI starts from ₹ 3332.22/month.</p>
+                    </div>
+                    <div class="button">Buy now</div>
+                </div>
+
+                <div class="box4">
+                    <div class="img"></div>
+                    <div class="specification"><p>Galaxy Tab S6 Lite(LTE, 4GB RAM)2022 Edition</p></div>
+                    <div class="color">Colour:Oxford Gray</div>
+                    <div class="gb">128 GB</div>
+                    <div class="price">
+                        <p class="rupee">₹ 31999.00</p>
+                        <p>No Cost EMI starts from ₹ 2403.18/month.</p>
+                    </div>
+                    <div class="button">Buy now</div>
+                </div>
+            </div>
+            <div class="see">
+                <p>Looking for something else?</p>
+                <form>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search keyWord">
+                </form>
+                <div class="search">
+                    <div class="PL">Galaxy S23 Ultra</div>
+                    <div class="PL">Galaxy Z Fold4</div>
+                    <div class="PL">QLED 8k</div>
+                    <div class="PL">UHD TVs</div>
+                    <div class="PL">Eco bubble</div>
+                </div>
+                <div class="search">
+                    <div class="PL">Culd Maestro</div>
+                    <div class="PL">Smart monitors</div>
+                </div>
+                <div class="inf">
+                    <p>* 5G Devices are 5G ready, connectivity dependent on network availability.</p>
+                    <p>* Images shown here are for representational purpose only, actual may vary. All features, specifications and prices are subject to change without prior notice. Model availability may vary from location to location.</p>
+                    <p>* Image simulated. S Pen Fold Edition sold separately and is only compatible with Galaxy Z Fold4 and Galaxy Z Fold3.</p>
+                    <p>* Watch screen image simulated for illustrative purpose. Availability of colours, sizes, models, and watch bands may vary by country or carrier</p>
+                    <p>* Image simulated. Available colours of Galaxy Buds2 Pro may vary by country or carrier.</p>
+                    <p># T&C Apply. Cashback at the sole discretion of the issuer / NBFC.</p>
+                    <p>** Product launch dates vary from country to country. Some products may be launched earlier in few countries.</p>
+                    <p>* Offer valid on select models only.</p>
+                </div>
+            </div>
+         </section>
+    </main>
+
+    <footer id="footer">
+        <div class="bottom">
+            <div class="div">
+                <p>Product & Service</p>
+                <ul>
+                    <li>Smartphone</li>
+                     <li>Tablets</li>
+                     <li>Audio Sounds</li>
+                     <li>Watches</li>
+                     <li>Smart Switch</li>
+                     <li>Mobile Accessories</li>
+                     <li>TVs</li>
+                     <li>Sound Device</li>
+                     <li>Refrigetors</li>
+                     <li>Laundry</li>
+                     <li>Air Solutions</li>
+                     <li>Cooking Appliances</li>
+                     <li>Monitors</li>
+                     <li>memory Storage</li>
+                </ul>
+            </div>
+            <div class="div">
+                <p>Shope</p>
+                <ul>
+                    <li>Smartphone</li>
+                     <li>Tablets</li>
+                     <li>Audio Sounds</li>
+                     <li>Watches</li>
+                     <li>Smart Switch</li>
+                     <li>Mobile Accessories</li>
+                     <li>TVs</li>
+                     <li>Sound Device</li>
+                     <li>Refrigetors</li>
+                     <li>Laundry</li>
+                     <li>Air Solutions</li>
+                     <li>Cooking Appliances</li>
+                     <li>Monitors</li>
+                     <li>memory Storage</li>
+                </ul>
+            </div>
+            <div class="div">
+                <p>Supports</p>
+                <ul>
+                    <li>Smartphone</li>
+                     <li>Tablets</li>
+                     <li>Audio Sounds</li>
+                     <li>Watches</li>
+                     <li>Smart Switch</li>
+                     <li>Mobile Accessories</li>
+                     <li>TVs</li>
+                     <li>Sound Device</li>
+                     <li>Refrigetors</li>
+                </ul>
+            </div>
+            <div class="div">
+                <p>Account & Community</p>
+                <ul>
+                    <li>Smartphone</li>
+                     <li>Tablets</li>
+                     <li>Audio Sounds</li>
+                     <li>Watches</li>
+                     <li>Smart Switch</li>
+                     <li>Mobile Accessories</li>
+                     <li>TVs</li>
+                     <li>Sound Device</li>
+                     <li>Refrigetors</li>
+                     <li>Laundry</li>
+                     <li>Air Solutions</li>
+                     <li>Cooking Appliances</li>
+                     <li>Monitors</li>
+                     <li>memory Storage</li>
+                </ul>
+            </div>
+            <div class="div">
+                <p>Sustainability</p>
+                <ul>
+                    <li>Smartphone</li>
+                     <li>Tablets</li>
+                     <li>Audio Sounds</li>
+                     <li>Watches</li>
+                     <li>Smart Switch</li>
+                     <li>Mobile Accessories</li>
+                     <li>TVs</li>
+                     <li>Sound Device</li>
+                     <li>Refrigetors</li>
+                     <li>Laundry</li>
+                     <li>Air Solutions</li>
+                     <li>Cooking Appliances</li>
+                     <li>Monitors</li>
+                     <li>memory Storage</li>
+                </ul>
+            </div>
+        </div>
+        <div class="div1">
+         <p>Copyright ⓒ 1995-2023 SAMSUNG All Rights reserved.</p>
+         <p>Please dispose of e-waste and plastic waste responsibly.</p>
+         <p>For more information or e-waste pick up, please call 1800 5 7267864 or click here for more details.
+        </p>
+        <p>Registered Office Address: 6th Floor, DLF Centre, Sansad Marg, New Delhi-110001</p>
+        <p>Corporate Identification Number (CIN): U31900DL1995PTC071387</p>
+        <br>
+        <hr>
+        </div>
+        <div class="foot">
+            <div class="foot-left">
+                <a>India/English</a>
+                <a>privacy</a>
+                <a>Legel</a>
+                <a>CSR Policy</a>
+                <a>Sitmap</a>
+            </div>
+            <div class="foot-right">
+                <a>Stay in the loop?</a>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-square-twitter"></i>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-square-whatsapp"></i>
+            </div>
+        </div>
+     </footer>
+</body>
+</html>
